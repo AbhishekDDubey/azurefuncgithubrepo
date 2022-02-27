@@ -5,7 +5,7 @@ module.exports = async function (context, req) {
     {
         context.res = {
             // status: 200, /* Defaults to 200 */
-            body: req.query.num1 * req.query.num2
+            body: "The result is:" + req.query.num1 * req.query.num2
         };
     }
     else {
